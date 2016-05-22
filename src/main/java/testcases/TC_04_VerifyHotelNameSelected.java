@@ -28,17 +28,9 @@ public class TC_04_VerifyHotelNameSelected extends OpentapsWrappers {
         new LoginPage()
                 .enterUserName(username)
                 .enterPassword(password)
-                .clickLogin().selectLocation(location);
-        new SearchHotelPage()
-                .selectLocation(location)
-                .selectHotels(hotels)
-                .roomType(roomType)
-                .datePickin(checkInData)
-                .datePickout(checkOutDate)
-                .adultperRoom(adult)
-                .childrenperRoom(children)
-                .clickSearch()
-                .hotelName(name)
+                .clickLogin()
+                .selectLocation(location);
+
         ;
 
 

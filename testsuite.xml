@@ -1,0 +1,8 @@
+<suite name="Parallel tests" verbose="1" parallel="classes" thread-count="1" >
+    <test name="Parallel tests">
+        <classes>
+            <class name="testcases.TC_04_VerifyHotelNameSelected" />
+            <class name="testcases.TC_03_VerifyCheckInDate" />
+        </classes>
+    </test>
+</suite>

@@ -14,7 +14,7 @@ public class TC_03_VerifyCheckInDate extends OpentapsWrappers {
 
     @BeforeClass
     public void startTestCase(){
-        browserName 	= "firefox";
+        browserName 	= "chrome";
         dataSheetName 	= "TC03_checkindate";
         testCaseName 	= "TC03 -Adactin Check-In Date Validation (POM)";
         testDescription = "Login to Adactin.com using POM framework";
