@@ -19,6 +19,9 @@
                         <suiteXmlFile>testsuite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
+								<configuration>
+												<forkMode>never</forkMode>
+								</Configuration>
             </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
